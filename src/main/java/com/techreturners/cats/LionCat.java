@@ -2,7 +2,7 @@
 package com.techreturners.cats;
 
 public class LionCat extends WildCat{
-    public String eat(){
+    @Override public String eat(){
         return "Roar!!!!";
     }
 }

@@ -12,8 +12,7 @@ public class CatTest {
     public void checkCatIsAwake() {
         Cat domesticCat = new DomesticCat();
 
-        //Cat is sleeping by default
-        assertFalse( !domesticCat.isAsleep());
+        assertFalse(!domesticCat.isAsleep());
     }
 
     @Test
@@ -39,16 +38,17 @@ public class CatTest {
 
     @Test
     public void checkCatHeight() {
+        //Cat domesticCat = new DomesticCat();
         Cat domesticCat = new DomesticCat();
         assertEquals(23, domesticCat.getAverageHeight());
     }
 
     @Test
     public void checkLionHeight() {
+
         Cat lionCat = new LionCat();
         assertEquals(1100, lionCat.getAverageHeight());
     }
-
 
 
     @Test

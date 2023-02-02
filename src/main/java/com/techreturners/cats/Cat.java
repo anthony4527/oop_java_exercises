@@ -6,9 +6,13 @@ public interface Cat {
 
 
     public void goToSleep();
+
     public void wakeUp();
 
     public String eat();
+
+    public void run();
+
     public String getSetting();
 
     public int getAverageHeight();
